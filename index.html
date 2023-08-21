@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomso</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <ul class="nav" id="home">
+            <div>
+                <span>
+                    <img src="Bella Olonje logo 111 1.png" id="enactus-logo
+            alt=" enactus" width="150" style="margin-right: 10px">
+                </span>
+            </div>
+            <div id="menu" class="menu_links">
+                <li ><a href="#Home">Home</a></li>
+                <li ><a href="#Content">About</a></li>
+                <li ><a href="#Download">Services</a></li>
+                <li ><a href="#Contact">Contact</a></li>
+            </div>
+            <div class="mob">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i style="font-size: 4.5vw;color: black;" onclick="myMove(this)" class="fa fa-bars"></i>
+                </a>
+            </div>
+        </ul>
+    </header>
+    <div class="home" id="Home">
+        <br /><br /><br />
+        <p class="hometext">Food app</p>
+        <p class="heading">
+            Why stay hungry<br />
+            when you can order from Bella Onojie
+        </p>
+        <p class="hometext1">Download the bella oneja's app now</p>
+        <span><button class="playstore">Playstore</button></span>
+        <span><button class="appstore">App Store</button></span>
+        <br /><br /><br /><br />
+    </div>
+    <div class="mobile">
+        <img src="Rectangle.png" alt="img1" id="img1" />
+        <img src="Rectangle (1).png" alt="img2" id="img2" />
+        <hr />
+    </div>
+    <div class="working">
+        <h1 class="title_working" style="text-align: center">
+            How the app works
+        </h1>
+        <br />
+    </div>
+    <div class="content" id="Content">
+        <div class="row1">
+            <img src="Rectangle (2).png" alt="Login" />
+            <div class="content1">
+                <p class="c1a" style="color: rgb(255, 119, 0)">
+                    <b>Create an account</b>
+                </p>
+                <h1>Create/Login to an existing account to get started</h1>
+                <p class="c1b" style="color: rgb(127, 127, 127)">
+                    An account is created with your email<br />and desired password
+                </p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="content2">
+                <p class="c2a" style="color: rgb(255, 119, 0)">
+                    <b>Explore Varieties</b>
+                </p>
+                <h1>Shop for your favourites meal as e dey hot.</h1>
+                <p class="c2b" style="color: rgb(127, 127, 127)">
+                    Shop for your favourite meals or drinks <br />and enjoy while
+                    ordering it.
+                </p>
+            </div>
+            <img src="Rectangle (3).png" alt="Login" />
+        </div>
+        <div class="row3">
+            <img src="Rectangle (4).png" alt="payment" />
+            <div class="content3">
+                <p class="c3a" style="color: rgb(255, 119, 0)"><b>Checkout</b></p>
+                <h1>When you have done,check out and get it delivered.</h1>
+                <p class="c3b" style="color: rgb(127, 127, 127)">
+                    When you have done ordering food,check out and get it delivered with
+                    ease.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="download" id="Download">
+        <h1><b>Download the app now.</b></h1>
+        <p class="marketing">
+            Available on your favourite store.Start your premium experience now.
+        </p>
+        <p class="formob">Most calendars are designed for teams.</p>
+        <br /><br />
+        <span><button class="playstore">Playstore</button></span>
+        <span><button class="appstore">App Store</button></span>
+        <span><button class="buynow">Buy Now</button></span>
+        <span><button class="tryforfree">Try for free</button></span>
+    </div>
+    <div class="footer" id="Contact">
+        <div class="browser">
+            <div class="column1">
+                <img src="image 12.png" alt="logo" width="150vw" />
+            </div>
+            <div class="column2">
+                <span><img src="Vector.png" alt="twitter" width="24vw" /></span>
+                <span><img src="Vector (1).png" alt="facebook" width="24vw" /></span>
+                <span><img src="Vector (5).png" alt="linkedin" width="24vw" /></span>
+            </div>
+            <div class="column3">
+                <p style="font-size: 1vw">Copywright 2022 Bella Onogie.com</p>
+            </div>
+        </div>
+        <div class="mobfooter">
+            <div class="col2mob">
+                <img src="Vector.png" alt="twitter" width="30vw" />
+                <img src="Vector (1).png" alt="facebook" width="30vw" />
+                <img src="Vector (5).png" alt="linkedin" width="30vw" /><br />
+            </div>
+            <p style="font-size: 3vw; text-align: center">
+                Copywright 2022 Bella Onogie.com
+            </p>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("menu");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function myMove(x) {
+                x.classList.toggle("fa-minus-circle");
+            }
+        </script>
+    </div>
+</body>
+
+</html>
